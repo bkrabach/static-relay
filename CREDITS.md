@@ -64,6 +64,12 @@ No attribution is required for any of them; they are credited here anyway.
 | BigSoundBank (Joseph Sardin) | Tawny Owl #2 | CC0 1.0 | https://bigsoundbank.com/s1764.html | https://bigsoundbank.com/UPLOAD/ogg/1764.ogg | amb_owl one-shots |
 | BigSoundBank (Joseph Sardin) | Tawny Owl #3 | CC0 1.0 | https://bigsoundbank.com/s3459.html | https://bigsoundbank.com/UPLOAD/ogg/3459.ogg | amb_owl one-shots |
 | BigSoundBank (Joseph Sardin) | Tawny Owl #4 | CC0 1.0 | https://bigsoundbank.com/s3460.html | https://bigsoundbank.com/UPLOAD/ogg/3460.ogg | amb_owl one-shots |
+| BigSoundBank (Joseph Sardin) | Footstep in the Snow #1 | CC0 1.0 | https://bigsoundbank.com/s0208.html | https://bigsoundbank.com/UPLOAD/ogg/0208.ogg | footstep_snow / land_snow |
+| BigSoundBank (Joseph Sardin) | Footstep in the Snow #2 | CC0 1.0 | https://bigsoundbank.com/s2890.html | https://bigsoundbank.com/UPLOAD/ogg/2890.ogg | footstep_snow / land_snow |
+| BigSoundBank (Joseph Sardin) | Steps in the snow #3 | CC0 1.0 | https://bigsoundbank.com/s3363.html | https://bigsoundbank.com/UPLOAD/ogg/3363.ogg | footstep_snow (running) |
+| BigSoundBank (Joseph Sardin) | Cracking ice #1 | CC0 1.0 | https://bigsoundbank.com/s2205.html | https://bigsoundbank.com/UPLOAD/ogg/2205.ogg | impact_ice / footstep_ice crackle |
+| BigSoundBank (Joseph Sardin) | Cracking ice #2 | CC0 1.0 | https://bigsoundbank.com/s2206.html | https://bigsoundbank.com/UPLOAD/ogg/2206.ogg | impact_ice / footstep_ice crackle |
+| BigSoundBank (Joseph Sardin) | Cracking ice #4 | CC0 1.0 | https://bigsoundbank.com/s2208.html | https://bigsoundbank.com/UPLOAD/ogg/2208.ogg | impact_ice / footstep_ice crackle |
 | OpenGameArt (rubberduck) | 100-cc0-metal-and-wood-sfx | CC0 1.0 | https://opengameart.org/content/100-cc0-metal-and-wood-sfx | https://opengameart.org/sites/default/files/100-CC0-wood-metal-SFX.zip | impact_metal / impact_wood / footstep_metal / mechanical foley / melee_hit / melee_thud |
 | OpenGameArt (rubberduck) | 75-cc0-breaking-falling-hit-sfx | CC0 1.0 | https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx | https://opengameart.org/sites/default/files/sfx_breaking_and_falling.zip | impact_concrete / impact_rock / debris / melee_hit / melee_thud |
 | OpenGameArt (rubberduck) | 25-cc0-bang-firework-sfx | CC0 1.0 | https://opengameart.org/content/25-cc0-bang-firework-sfx | https://opengameart.org/sites/default/files/25-CC0-bang-sfx.zip | explosion / gunshot crack layers |

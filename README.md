@@ -1,7 +1,7 @@
 # STATIC RELAY
 
-**A co-op extraction shooter in a forest that has been taken over by machines. One to six operators drop in, do the
-job, and decide how far to push before they get out. Free. Mac and Windows.**
+**A co-op extraction shooter on a dead relay line that its own machines have taken over. One to six operators drop
+in, do the job, and decide how far to push before they get out. Free. Mac and Windows.**
 
 ![Static Relay - the menu](media/00_menu.jpg)
 
@@ -20,6 +20,34 @@ Both are on the [latest release](../../releases/latest). The Mac app is signed a
 signed yet: SmartScreen asks once - **More info**, then **Run anyway**. After the first install the game updates
 itself from the menu.
 
+## The Line
+
+The Karst Range Line is twelve unmanned relay stations across four hundred kilometres of wilderness. Eighteen months
+ago something came down along the range in a single night. The machines that maintained the Line stopped answering
+their owners and went on working. The relays still answer every call.
+
+You are contracted to the office that bought the wreck: drop by pod, raise a relay's uplink for a few minutes, strip
+what pays, and leave from the landing zone. The rates go up after dark. So does everything else.
+
+Every uplink you raise also decodes a fragment of the last maintenance crew's log - four people, twenty-four
+entries, kept in your Operator tab. Read in order, they are the story. And every upload ends with a second handshake
+that nobody on your side sent.
+
+## Two zones
+
+| | |
+|---|---|
+| **KR-07 The Valley** | Conifer forest around a relay yard, a bunker and a logging camp - and the place where the largest piece came down. |
+| **KR-12 Head End** | Above the treeline: snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
+
+Two more are planned: a quarry in autumn, and the coast.
+
+| | |
+|---|---|
+| ![Head End in the morning, from the drop point](media/07_head_end_morning.jpg) | ![The array at sunset](media/08_array_sunset.jpg) |
+| ![Crew Seven's camp at dusk](media/09_camp_dusk.jpg) | ![Aurora over the ridge](media/10_aurora_night.jpg) |
+| ![Inside a whiteout](media/11_whiteout.jpg) | ![The line log](media/12_line_log.jpg) |
+
 ## What you do
 
 - **Drop in, alone or with up to five friends.** One of you hosts from the menu; the others join over the local
@@ -33,6 +61,8 @@ itself from the menu.
   line of fire, Wasps overhead, and worse.
 - **Seven weapons** you can upgrade in the field with hardware that shows on the gun, an arc charge, a stim, a pulse.
 - **Side work** if you want it: a supply drop, a priority target, a rogue transmitter.
+- **A dispatcher on the radio.** Switch reads you the weather, the clock and the contract at every drop and at every
+  new tier. Something else is on the channel as well.
 
 ## Plays with what you have
 
@@ -53,11 +83,12 @@ itself from the menu.
 - **Mac:** macOS on Apple silicon or Intel with Metal. Developed against an M4 Max MacBook Pro.
 - **Windows:** Windows 10 or 11, 64-bit, a graphics card with Vulkan (or Direct3D 12). On integrated graphics (a
   handheld) it runs at reduced quality and resolution.
-- 2 GB of disk.
+- 2.5 GB of disk (the download is 1.3 GB).
 
 ## Honest notes
 
-This is a work in progress by a very small team. Known rough edges: the picture is softer than the HUD drawn over it,
+This is a work in progress by a very small team. Head End is new and has been played mostly by bots, and nobody has
+recorded the voices yet: every line of the story is text. Known rough edges: the picture is softer than the HUD drawn over it,
 some weapons and machines have had less attention than others, and balance has been tuned mostly by bots. On handheld
 PCs it runs at reduced quality: about 45-50 frames a second on a ROG Ally X at the settings the game picks for it. If something
 breaks or looks wrong, [open an issue](../../issues) - a screenshot and what you were doing is plenty.
