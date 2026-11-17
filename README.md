@@ -48,6 +48,18 @@ Two more are planned: a quarry in autumn, and the coast.
 | ![Crew Seven's camp at dusk](media/09_camp_dusk.jpg) | ![Aurora over the ridge](media/10_aurora_night.jpg) |
 | ![Inside a whiteout](media/11_whiteout.jpg) | ![The line log](media/12_line_log.jpg) |
 
+## Vehicles
+
+Three stand in each zone: four-seat line UTVs in the Valley, two-seat snowmobiles at Head End. Walk up and press Use.
+The driver drives and sees the vehicle from behind; everyone else rides in first person with their weapon up.
+Machines hear an engine from much further away than a footstep, shoot at whoever sits on it, and get run over by it -
+the big ones do not give way. A vehicle is spent, not kept: it smokes, it burns, it goes up like a fuel drum, and a
+fresh one stands at its place a few minutes later.
+
+| | |
+|---|---|
+| ![A line UTV on the Valley road](media/13_utv_valley.jpg) | ![A snowmobile at Head End](media/14_snowmobile_head_end.jpg) |
+
 ## What you do
 
 - **Drop in, alone or with up to five friends.** One of you hosts from the menu; the others join over the local
@@ -57,6 +69,8 @@ Two more are planned: a quarry in autumn, and the coast.
   machines, better rewards, the day sliding from morning toward night - or call the exfil and hold the landing zone
   to bank the run.
 - **Spend what you earn in the field**: an armory, an overclock bench, an augment dispenser, a supply cache.
+- **Drive between objectives, fight on foot.** A vehicle makes the zone smaller; the uplink, the escort and the
+  landing zone still have to be held by people standing on the ground.
 - **Thirteen machines**, each with a job and a weak point: Drudges that swarm, Coursers that flank, Lancers that hold a
   line of fire, Wasps overhead, and worse.
 - **Seven weapons** you can upgrade in the field with hardware that shows on the gun, an arc charge, a stim, a pulse.
