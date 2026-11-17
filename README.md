@@ -38,7 +38,7 @@ that nobody on your side sent.
 | | |
 |---|---|
 | **KR-07 The Valley** | Conifer forest around a relay yard, a bunker and a logging camp - and the place where the largest piece came down. |
-| **KR-12 Head End** | Above the treeline: snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
+| **KR-12 Head End** | Where the forest gives out: the last stunted firs, snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
 
 Two more are planned: a quarry in autumn, and the coast.
 
@@ -88,8 +88,10 @@ Two more are planned: a quarry in autumn, and the coast.
 ## Honest notes
 
 This is a work in progress by a very small team. Head End is new and has been played mostly by bots, and nobody has
-recorded the voices yet: every line of the story is text. Known rough edges: the picture is softer than the HUD drawn over it,
-some weapons and machines have had less attention than others, and balance has been tuned mostly by bots. On handheld
+recorded the voices yet: every line of the story is text. Known rough edges: buildings look their best from a few metres off,
+some weapons and machines have had less attention than others, other players are shown reloading every weapon the
+same way, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:
+if other programs hold it (local AI models and virtual machines are the usual ones), it runs very slowly - and says so. On handheld
 PCs it runs at reduced quality: about 45-50 frames a second on a ROG Ally X at the settings the game picks for it. If something
 breaks or looks wrong, [open an issue](../../issues) - a screenshot and what you were doing is plenty.
 
