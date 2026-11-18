@@ -88,7 +88,7 @@ fresh one stands at its place a few minutes later.
 
 | | |
 |---|---|
-| ![The relay yard at sunset](media/02_relay_yard_sunset.jpg) | ![Forest at dusk](media/03_forest_dusk.jpg) |
+| ![The relay yard at sunset](media/02_relay_yard_sunset.jpg) | ![The track to the crash site at dusk](media/03_forest_dusk.jpg) |
 | ![Morning at the road block](media/01_roadblock_morning.jpg) | ![The bunker](media/05_bunker.jpg) |
 | ![Down the sight at sunset](media/06_fight.jpg) | |
 
