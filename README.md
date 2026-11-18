@@ -53,7 +53,7 @@ Two more are planned: a quarry in autumn, and the coast.
 Three stand in each zone: four-seat line UTVs in the Valley, two-seat snowmobiles at Head End. Walk up and press Use.
 The driver drives and sees the vehicle from behind; everyone else rides in first person with their weapon up.
 Machines hear an engine from much further away than a footstep, shoot at whoever sits on it, and get run over by it -
-the big ones do not give way. A vehicle is spent, not kept: it smokes, it burns, it goes up like a fuel drum, and a
+the big ones do not give way. A red fuel drum in the way is run over too, and goes up behind you. A vehicle is spent, not kept: it smokes, it burns, it goes up like a fuel drum, and a
 fresh one stands at its place a few minutes later.
 
 | | |
