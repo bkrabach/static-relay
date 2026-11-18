@@ -37,20 +37,20 @@ that nobody on your side sent.
 
 | | |
 |---|---|
-| **KR-07 The Valley** | Conifer forest around a relay yard, a bunker and a logging camp - and the place where the largest piece came down. |
-| **KR-12 Head End** | Where the forest gives out: the last stunted firs, snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
+| **KR-07 The Valley** | Conifer forest in a valley 400 m across: a relay yard, a bunker, a logging camp in its clear-cut, a meadow where the helicopter lands, the cleared lane under the pole line - and the place where the largest piece came down. |
+| **KR-12 Highline** | Where the forest gives out: the last stunted firs, snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
 
-Two more are planned: a quarry in autumn, and the coast.
+Each zone is 400 m across - room to drive. Two more are being built: a quarry in autumn, and the coast.
 
 | | |
 |---|---|
-| ![Head End in the morning, from the drop point](media/07_head_end_morning.jpg) | ![The array at sunset](media/08_array_sunset.jpg) |
+| ![Highline in the morning, from the drop point](media/07_highline_morning.jpg) | ![The array at sunset](media/08_array_sunset.jpg) |
 | ![Crew Seven's camp at dusk](media/09_camp_dusk.jpg) | ![Aurora over the ridge](media/10_aurora_night.jpg) |
 | ![Inside a whiteout](media/11_whiteout.jpg) | ![The line log](media/12_line_log.jpg) |
 
 ## Vehicles
 
-Three stand in each zone: four-seat line UTVs in the Valley, two-seat snowmobiles at Head End. Walk up and press Use.
+Five stand in each zone, one of them where you land: four-seat line UTVs in the Valley, two-seat snowmobiles at Highline. Walk up and press Use.
 The driver drives and sees the vehicle from behind; everyone else rides in first person with their weapon up.
 Machines hear an engine from much further away than a footstep, shoot at whoever sits on it, and get run over by it -
 the big ones do not give way. A red fuel drum in the way is run over too, and goes up behind you. A vehicle is spent, not kept: it smokes, it burns, it goes up like a fuel drum, and a
@@ -58,7 +58,7 @@ fresh one stands at its place a few minutes later.
 
 | | |
 |---|---|
-| ![A line UTV on the Valley road](media/13_utv_valley.jpg) | ![A snowmobile at Head End](media/14_snowmobile_head_end.jpg) |
+| ![A line UTV on the Valley road](media/13_utv_valley.jpg) | ![A snowmobile at Highline](media/14_snowmobile_highline.jpg) |
 
 ## What you do
 
@@ -101,7 +101,7 @@ fresh one stands at its place a few minutes later.
 
 ## Honest notes
 
-This is a work in progress by a very small team. Head End is new and has been played mostly by bots, and nobody has
+This is a work in progress by a very small team. Both zones doubled in size in the last update and Highline is still new: they have been played mostly by bots, and nobody has
 recorded the voices yet: every line of the story is text. Known rough edges: buildings look their best from a few metres off,
 some weapons and machines have had less attention than others, other players are shown reloading every weapon the
 same way, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:

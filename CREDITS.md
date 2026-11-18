@@ -119,7 +119,7 @@ Maintained by the player module (`player/`). Everything is CC0 from Poly Haven (
 
 | MakeHuman Community | base mesh `hm08` (`makehuman/data/3dobjs/base.obj`), default skeleton and weights (`rigs/default.mhskel`, `rigs/default_weights.mhw`), morph targets `targets/armslegs/r-hand-fingers-diameter-incr.target` and `targets/macrodetails/universal-male-young-maxmuscle-averageweight.target` | CC0 1.0 (`LICENSE.md` section C and the per-file headers; (c) 2020 Data Collection AB, Joel Palmius, Jonas Hauquier) | https://github.com/makehumancommunity/makehuman | the first-person hand: cut out, re-pivoted, turned into a glove and re-skinned by `tools/hands_build.py` |
 
-The gloved arms (`assets/hands2/arm.gltf` + six baked maps) are built by `tools/hands_build.py` from the MakeHuman files
+The gloved arms (`assets/hands7/arm.gltf` + six baked maps) are built by `tools/hands_build.py` from the MakeHuman files
 above: the glove and sleeve design, displacement and all texture maps are original procedural work; the left arm is the
 right one mirrored. Regenerate: `python3 godot/tools/hands_build.py && godot/tools/import.sh` (about 30 s).
 
