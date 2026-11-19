@@ -48,6 +48,8 @@ Each zone is 400 m across - room to drive. One more is being built: the coast.
 | ![Highline in the morning, from the drop point](media/07_highline_morning.jpg) | ![The array at sunset](media/08_array_sunset.jpg) |
 | ![Crew Seven's camp at dusk](media/09_camp_dusk.jpg) | ![Aurora over the ridge](media/10_aurora_night.jpg) |
 | ![Inside a whiteout](media/11_whiteout.jpg) | ![The line log](media/12_line_log.jpg) |
+| ![The Cut from the south rim at sunset](media/17_cut_rim.jpg) | ![The quarry gate in the morning](media/18_cut_gate.jpg) |
+| ![Stone wagons and sawn blocks in the cut](media/19_cut_wagons.jpg) | ![A Tessel dumper left on the top bench](media/20_cut_dumper.jpg) |
 
 ## Vehicles
 
@@ -91,7 +93,8 @@ fresh one stands at its place a few minutes later.
 |---|---|
 | ![The relay yard at sunset](media/02_relay_yard_sunset.jpg) | ![The crash site at dusk](media/03_forest_dusk.jpg) |
 | ![Morning at the road block](media/01_roadblock_morning.jpg) | ![The bunker](media/05_bunker.jpg) |
-| ![Down the sight at sunset](media/06_fight.jpg) | |
+| ![Down the sight at sunset](media/06_fight.jpg) | ![The squad at the rim of the Cut, the pit below](media/22_cut_squad_rim.jpg) |
+| ![The squad in the relay yard](media/15_squad.jpg) | ![A revive under cover](media/16_squad_revive.jpg) |
 
 ## What it needs
 
