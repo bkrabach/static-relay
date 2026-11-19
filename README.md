@@ -29,19 +29,19 @@ their owners and went on working. The relays still answer every call.
 You are contracted to the office that bought the wreck: drop by pod, raise a relay's uplink for a few minutes, strip
 what pays, and leave from the landing zone. The rates go up after dark. So does everything else.
 
-Every uplink you raise also decodes a fragment of the last maintenance crew's log - four people, twenty-four
-entries, kept in your Operator tab. Read in order, they are the story. And every upload ends with a second handshake
+Every uplink you raise also decodes a fragment of the last maintenance crew's log - four people, their entries
+kept in your Operator tab. Read in order, they are the story - as far as the zones built so far tell it. And every upload ends with a second handshake
 that nobody on your side sent.
 
 ## Three zones
 
 | | |
 |---|---|
-| **KR-07 The Valley** | Conifer forest in a valley 400 m across: a relay yard, a bunker, a logging camp in its clear-cut, a meadow where the helicopter lands, the cleared lane under the pole line - and the place where the largest piece came down. |
+| **KR-07 The Valley** | Conifer forest in a valley 400 m across: a relay yard, a bunker, a logging camp in its clear-cut, a meadow that serves as the landing zone, the cleared lane under the pole line - and the place where the largest piece came down. |
 | **KR-12 Highline** | Where the forest gives out: the last stunted firs, snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
 | **KR-09 The Cut** | A limestone quarry in autumn, under gold larch and birch: three benches down to a flooded sump, a cut with a train in it, a haul road down the walls, and at the cut's mouth the crusher plant the machines have made a foundry. Its rule is **height**: the machines take the benches above you and fire down, and the train and the hoists are cover that does not stay put. You wade in the sump; a vehicle stops at the water's edge. New in round 13 - played so far by bots and a test driver. |
 
-Each zone is 400 m across - room to drive. One more is being built: the coast.
+Each zone is 400 m across - room to drive. A fourth, the coast, is designed and waits its turn: the three that exist come first.
 
 | | |
 |---|---|
@@ -84,10 +84,11 @@ fresh one stands at its place a few minutes later.
 ## Plays with what you have
 
 - **Mouse and keyboard**, every key rebindable.
-- **Controllers**: Xbox, PlayStation, Switch Pro, Steam Deck and generic pads. The game shows the buttons of the pad in
-  your hands, every screen works from the pad, and there is gyro aiming if you like it.
-- **Sets its own graphics.** It measures the frame rate and picks quality and resolution to hold 60 frames a second
-  (or whatever you ask for in Settings → Video).
+- **Controllers**: built for Xbox, PlayStation, Switch Pro, Steam Deck and generic pads - the game shows the buttons of
+  the pad in your hands, every screen works from the pad, and there is gyro aiming to try. So far it has been played on a
+  handheld's built-in pad only; the others are tested with virtual devices. If yours misbehaves, tell us.
+- **Sets its own graphics.** It measures the frame rate and picks quality and resolution to hold the rate you choose in
+  Settings → Video (30 to 120 frames a second); on a machine that cannot hold it, it says what it settled on.
 
 | | |
 |---|---|
@@ -110,12 +111,14 @@ recorded the voices yet: every line of the story is text. Known rough edges: bui
 some weapons and machines have had less attention than others, your squad mates were rebuilt in 0.9.0 from a real
 body and captured motion and are still plain at arm's length, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:
 if other programs hold it (local AI models and virtual machines are the usual ones), it runs very slowly - and says so. On handheld
-PCs it runs at reduced quality: about 45-50 frames a second on a ROG Ally X at the settings the game picks for it. If something
+PCs it runs at reduced quality: on a ROG Ally X the settings it picks are built to hold roughly 40 to 50 frames a second - by our measurements, which are still few. If something
 breaks or looks wrong, [open an issue](../../issues) - a screenshot and what you were doing is plenty.
 
-**Privacy.** The game talks to this repository to look for updates. It sends nothing else anywhere on its own. If
-someone on your own network runs a host that collects session logs (a developer option), the game can send its session
-log there; Settings → Session turns that off.
+**Privacy.** The game talks to this repository to look for updates. To find games to join it looks for Static Relay hosts
+on your local network, and among your Tailscale peers if you have Tailscale installed. Session sharing is on by default:
+if one of those hosts was started as a log collector (a developer's setup - there is none on the internet), the game
+sends it the log of your session and a few small pictures of the game view. It sends nothing to any address outside
+your own network or VPN, and Settings → Session turns sharing off.
 
 ## Licences
 
