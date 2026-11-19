@@ -303,7 +303,18 @@ OpenGameArt (rubberduck): sound effect packs, CC0 1.0.
 MakeHuman Community: base mesh, skeleton and morph targets, CC0 1.0.
 
 ================================================================================
-3. ENGINE
+3. CAPTURED MOTION
+================================================================================
+
+The operators' body motion is retargeted from trials of the Carnegie Mellon University Graphics Lab Motion
+Capture Database (mocap.cs.cmu.edu). Its terms: "This dataset of motions is free for all uses." The motion is
+part of the game and is not offered on its own.
+
+The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from
+NSF EIA-0196217.
+
+================================================================================
+4. ENGINE
 ================================================================================
 
 GODOT ENGINE 4.7.2-stable (official)

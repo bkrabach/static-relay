@@ -123,6 +123,19 @@ The gloved arms (`assets/hands7/arm.gltf` + six baked maps) are built by `tools/
 above: the glove and sleeve design, displacement and all texture maps are original procedural work; the left arm is the
 right one mirrored. Regenerate: `python3 godot/tools/hands_build.py && godot/tools/import.sh` (about 30 s).
 
+### Operators (third person, round 12)
+
+| Source | Asset | Licence | Page | Used for |
+|---|---|---|---|---|
+| MakeHuman Community | base mesh `hm08` (`3dobjs/base.obj`), default skeleton and weights (`rigs/default.mhskel`, `rigs/default_weights.mhw`), targets `macrodetails/universal-male-young-maxmuscle-averageweight`, `african-male-young`, `asian-male-young`, `caucasian-male-young`, `measure/measure-upperarm-length-incr` | CC0 1.0 (`LICENSE.md` section C and the per-file headers; (c) Data Collection AB, Joel Palmius, Jonas Hauquier; original mesh by Manuel Bastioni) | http://www.makehumancommunity.org | the operator's body, skeleton and skin weights (`assets/operator2/base.gltf`, built by `tools/operator_build.py`); the outfit (`assets/operator3/outfit.gltf`, `tools/operator_kit.py`) is cut from it |
+| Carnegie Mellon University Graphics Lab Motion Capture Database | trials 16_01, 16_15, 111_03, 127_06, 139_02, 139_10, 139_31, 140_01, 140_03, 140_08, 141_31, 141_33, 143_39 (`.asf` / `.amc`) | "This dataset of motions is free for all uses"; may be included in products, may not be resold as data, even converted | http://mocap.cs.cmu.edu | the operator's walk, run, sneak, crawl, jump, idle, getting up, falling (`assets/operator2/motion.gltf`, retargeted and cut by `tools/operator_build.py`; `motion.json` beside it says which trial and seconds each clip is) |
+
+The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF
+EIA-0196217.
+
+The operator's outfit and gear - the mesh, the folds, every texture map - are original procedural work
+(`tools/operator_kit.py`). The motion files are part of the game and are not offered on their own.
+
 The SMG, carbine, shotgun, LMG and Arc Lance, all weapon detail / grunge / muzzle-flash / reticle textures and the
 marking decals are generated in code at start-up (`player/vm_*.gd`, `player/guns/*.gd`): no files.
 

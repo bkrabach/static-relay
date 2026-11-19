@@ -103,8 +103,8 @@ fresh one stands at its place a few minutes later.
 
 This is a work in progress by a very small team. Both zones doubled in size in the last update and Highline is still new: they have been played mostly by bots, and nobody has
 recorded the voices yet: every line of the story is text. Known rough edges: buildings look their best from a few metres off,
-some weapons and machines have had less attention than others, other players are shown reloading every weapon the
-same way, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:
+some weapons and machines have had less attention than others, your squad mates were rebuilt in 0.9.0 from a real
+body and captured motion and are still plain at arm's length, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:
 if other programs hold it (local AI models and virtual machines are the usual ones), it runs very slowly - and says so. On handheld
 PCs it runs at reduced quality: about 45-50 frames a second on a ROG Ally X at the settings the game picks for it. If something
 breaks or looks wrong, [open an issue](../../issues) - a screenshot and what you were doing is plenty.
