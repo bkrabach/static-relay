@@ -33,14 +33,15 @@ Every uplink you raise also decodes a fragment of the last maintenance crew's lo
 entries, kept in your Operator tab. Read in order, they are the story. And every upload ends with a second handshake
 that nobody on your side sent.
 
-## Two zones
+## Three zones
 
 | | |
 |---|---|
 | **KR-07 The Valley** | Conifer forest in a valley 400 m across: a relay yard, a bunker, a logging camp in its clear-cut, a meadow where the helicopter lands, the cleared lane under the pole line - and the place where the largest piece came down. |
 | **KR-12 Highline** | Where the forest gives out: the last stunted firs, snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night. **Whiteouts** cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound. |
+| **KR-09 The Cut** | A limestone quarry in autumn, under gold larch and birch: three benches down to a flooded sump, a cut with a train in it, a haul road down the walls, and at the cut's mouth the crusher plant the machines have made a foundry. Its rule is **height**: the machines take the benches above you and fire down, and the train and the hoists are cover that does not stay put. You wade in the sump; a vehicle stops at the water's edge. New in round 13 - played so far by bots and a test driver. |
 
-Each zone is 400 m across - room to drive. Two more are being built: a quarry in autumn, and the coast.
+Each zone is 400 m across - room to drive. One more is being built: the coast.
 
 | | |
 |---|---|
@@ -50,7 +51,7 @@ Each zone is 400 m across - room to drive. Two more are being built: a quarry in
 
 ## Vehicles
 
-Five stand in each zone, one of them where you land: four-seat line UTVs in the Valley, two-seat snowmobiles at Highline. Walk up and press Use.
+Five stand in each zone, one of them where you land: four-seat line UTVs in the Valley and the Cut, two-seat snowmobiles at Highline. Walk up and press Use.
 The driver drives and sees the vehicle from behind; everyone else rides in first person with their weapon up.
 Machines hear an engine from much further away than a footstep, shoot at whoever sits on it, and get run over by it -
 the big ones do not give way. A red fuel drum in the way is run over too, and goes up behind you. A vehicle is spent, not kept: it smokes, it burns, it goes up like a fuel drum, and a
@@ -101,7 +102,7 @@ fresh one stands at its place a few minutes later.
 
 ## Honest notes
 
-This is a work in progress by a very small team. Both zones doubled in size in the last update and Highline is still new: they have been played mostly by bots, and nobody has
+This is a work in progress by a very small team. The Cut is brand new and the other two zones doubled in size not long ago: they have been played mostly by bots, and nobody has
 recorded the voices yet: every line of the story is text. Known rough edges: buildings look their best from a few metres off,
 some weapons and machines have had less attention than others, your squad mates were rebuilt in 0.9.0 from a real
 body and captured motion and are still plain at arm's length, and balance has been tuned mostly by bots. The game needs about 4 GB of your graphics card's own memory:
