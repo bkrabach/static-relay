@@ -3,6 +3,10 @@
 **A co-op extraction shooter on a dead relay line that its own machines have taken over. One to six operators drop
 in, do the job, and decide how far to push before they get out. Free. Mac and Windows.**
 
+[![A one-minute reel of the game - select to watch](media/reel_preview.gif)](media/static-relay-reel.mp4?raw=true)
+
+**[Watch the one-minute reel](media/static-relay-reel.mp4?raw=true)** - every shot in it is the game playing itself.
+
 ![Static Relay - the menu](media/00_menu.jpg)
 
 Every line of code, every shader, every built model and every synthesised sound in this game was written by an AI
