@@ -1,0 +1,3 @@
+# the product page is not the project: keep it out of the language bar
+index.html linguist-documentation
+site/** linguist-documentation
