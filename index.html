@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Static Relay - a free co-op extraction shooter for Mac and Windows</title>
+<meta name="description" content="A co-op extraction shooter on a dead relay line that its own machines have taken over. One to six operators drop in, do the job, and decide how far to push before they get out. Free, for Mac and Windows.">
+<meta name="theme-color" content="#07090c">
+<link rel="canonical" href="https://bkrabach.github.io/static-relay/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Static Relay - a free co-op extraction shooter">
+<meta property="og:description" content="One to six operators drop in, do the job, and decide how far to push before they get out. Free, for Mac and Windows.">
+<meta property="og:url" content="https://bkrabach.github.io/static-relay/">
+<meta property="og:image" content="https://bkrabach.github.io/static-relay/site/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="site/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="site/fonts/Rajdhani-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="site/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="wm" href="#top" aria-label="Static Relay">
+    <svg class="pulse" viewBox="0 0 28 24" aria-hidden="true"><path d="M1 13h6l2.5-8 4.5 15 3.5-10 2 3h7.5"/></svg>
+    <span class="wm-a">STATIC</span><span class="wm-b">RELAY</span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+  <nav id="nav-links" aria-label="Sections">
+    <a href="#reel">Reel</a>
+    <a href="#loop">The game</a>
+    <a href="#zones">Zones</a>
+    <a href="#machines">Machines</a>
+    <a href="#made">How it was made</a>
+    <a class="btn btn-small" href="#download">Download</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="site/img/hero_poster.jpg" aria-hidden="true" tabindex="-1">
+    <source src="site/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-shade"></div>
+  <div class="hero-body wrap">
+    <p class="label">Open-zone co-op extraction &middot; 1-6 operators &middot; free</p>
+    <h1><span class="wm-a">STATIC</span> <span class="wm-b">RELAY</span></h1>
+    <p class="lede">A co-op extraction shooter on a dead relay line that its own machines have taken over. Drop in, do the job, and decide how far to push before you get out.</p>
+    <div class="cta">
+      <a class="btn" data-os="win" href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip">Download for Windows</a>
+      <a class="btn" data-os="mac" href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg">Download for Mac</a>
+      <a class="btn btn-ghost" href="#reel" data-play-reel>Watch the reel <span class="dim">1 min</span></a>
+    </div>
+    <p class="fine">Free. No account. 1.3 GB. The game updates itself after the first install.</p>
+  </div>
+  <button class="hero-pause" type="button" aria-pressed="false">Pause video</button>
+</section>
+
+<section class="band" aria-label="The game in numbers">
+  <div class="wrap facts">
+    <div><b>3</b><span>zones, each 400 m across</span></div>
+    <div><b>13</b><span>machines, each with a job and a weak point</span></div>
+    <div><b>7</b><span>weapons you upgrade in the field</span></div>
+    <div><b>1-6</b><span>operators, the host built into the app</span></div>
+    <div><b>58</b><span>named places to fight over</span></div>
+  </div>
+</section>
+
+<section id="reel" class="sec">
+  <div class="wrap">
+    <p class="label">01 / The reel</p>
+    <h2>Sixty seconds of it</h2>
+    <div class="player frame">
+      <video controls preload="none" poster="site/img/reel_poster.jpg" playsinline>
+        <source src="media/static-relay-reel.mp4" type="video/mp4">
+        <a href="media/static-relay-reel.mp4">Download the reel</a>
+      </video>
+    </div>
+    <p class="note">Every shot is the game playing itself.</p>
+  </div>
+</section>
+
+<section id="loop" class="sec">
+  <div class="wrap">
+    <p class="label">02 / The game</p>
+    <h2>Drop in. Do the job. Decide how far to push.</h2>
+    <ol class="steps">
+      <li class="card">
+        <a class="shot" href="media/15_squad.jpg"><img src="media/15_squad.jpg" alt="A squad of operators in the relay yard" loading="lazy" width="1920" height="1080"></a>
+        <p class="step-n">01</p>
+        <h3>Drop in</h3>
+        <p>Alone or with up to five friends. One of you hosts from the menu; the others join over the local network, or over a VPN such as Tailscale. No account, no server to rent.</p>
+      </li>
+      <li class="card">
+        <a class="shot" href="site/img/loop_objective.jpg"><img src="site/img/loop_objective.jpg" alt="An uplink terminal reading complete while a machine is shot at arm's length" loading="lazy" width="960" height="540"></a>
+        <p class="step-n">02</p>
+        <h3>Take the objective</h3>
+        <p>Defend the relay while it uploads, walk a rover to the bunker, hunt a Warden, carry power cells to the lift, or destroy three spires. Side work pays extra if you want it.</p>
+      </li>
+      <li class="card">
+        <a class="shot" href="site/img/loop_armory.jpg"><img src="site/img/loop_armory.jpg" alt="The armory panel with a marksman rifle just bought" loading="lazy" width="960" height="540"></a>
+        <p class="step-n">03</p>
+        <h3>Spend what you earn</h3>
+        <p>An armory, an overclock bench, an augment dispenser, a supply cache. Upgrades show as hardware on the gun in your hands.</p>
+      </li>
+      <li class="card">
+        <a class="shot" href="site/img/loop_beacon.jpg"><img src="site/img/loop_beacon.jpg" alt="The beacon panel: advance to tier 2, or call exfil" loading="lazy" width="960" height="540"></a>
+        <p class="step-n">04</p>
+        <h3>Push on, or get out</h3>
+        <p>At the beacon: the next tier, with heavier machines, better rewards and the day sliding toward night. Or call the exfil and hold the landing zone to bank the run.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="zones" class="sec sec-alt">
+  <div class="wrap">
+    <p class="label">03 / Three zones</p>
+    <h2>Each 400 metres across. Room to drive.</h2>
+
+    <article class="zone">
+      <div class="zone-pics">
+        <a class="shot shot-main frame" href="media/02_relay_yard_sunset.jpg"><img src="media/02_relay_yard_sunset.jpg" alt="The relay yard at sunset" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/03_forest_dusk.jpg"><img src="media/03_forest_dusk.jpg" alt="The crash site at dusk" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/01_roadblock_morning.jpg"><img src="media/01_roadblock_morning.jpg" alt="Morning at the road block" loading="lazy" width="1920" height="1080"></a>
+      </div>
+      <div class="zone-text">
+        <p class="label">KR-07</p>
+        <h3>The Valley</h3>
+        <p>Conifer forest in a valley: a relay yard, a bunker, a logging camp in its clear-cut, a meadow that serves as the landing zone, the cleared lane under the pole line. And the place where the largest piece came down.</p>
+      </div>
+    </article>
+
+    <article class="zone zone-flip">
+      <div class="zone-pics">
+        <a class="shot shot-main frame" href="media/10_aurora_night.jpg"><img src="media/10_aurora_night.jpg" alt="Aurora over the ridge at Highline" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/07_highline_morning.jpg"><img src="media/07_highline_morning.jpg" alt="Highline in the morning, from the drop point" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/11_whiteout.jpg"><img src="media/11_whiteout.jpg" alt="Inside a whiteout" loading="lazy" width="1920" height="1080"></a>
+      </div>
+      <div class="zone-text">
+        <p class="label">KR-12</p>
+        <h3>Highline</h3>
+        <p>Where the forest gives out: snowfields under a wall of limestone, seven radio dishes, a cable-tram station, a camp that was left pitched. Aurora at night.</p>
+        <p><strong>Whiteouts</strong> cross the cirque: eight seconds of warning, then half a minute in which you see twelve metres. The machines do not hunt by sight. You fight by map, ping and sound.</p>
+      </div>
+    </article>
+
+    <article class="zone">
+      <div class="zone-pics">
+        <a class="shot shot-main frame" href="media/17_cut_rim.jpg"><img src="media/17_cut_rim.jpg" alt="The Cut from the south rim at sunset" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/19_cut_wagons.jpg"><img src="media/19_cut_wagons.jpg" alt="Stone wagons and sawn blocks in the cut" loading="lazy" width="1920" height="1080"></a>
+        <a class="shot" href="media/20_cut_dumper.jpg"><img src="media/20_cut_dumper.jpg" alt="A dumper left on the top bench" loading="lazy" width="1920" height="1080"></a>
+      </div>
+      <div class="zone-text">
+        <p class="label">KR-09</p>
+        <h3>The Cut</h3>
+        <p>A limestone quarry in autumn, under gold larch and birch: three benches down to a flooded sump, a cut with a train in it, and at its mouth the crusher plant the machines have made a foundry.</p>
+        <p>Its rule is <strong>height</strong>. The machines take the benches above you and fire down, and the train and the hoists are cover that does not stay put.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="machines" class="sec">
+  <div class="wrap">
+    <p class="label">04 / The machines</p>
+    <h2>Thirteen of them. Each has a job.</h2>
+    <div class="grid machines">
+      <figure class="card"><img src="site/img/m_drudge.jpg" alt="Drudges with saws raised" loading="lazy" width="800" height="500"><figcaption><h3>Drudge</h3><p>Labour frame. Swarms and swipes up close.</p><p class="tip">Shoot the optic: crits ignore its plate.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_courser.jpg" alt="A Courser on a forest bank" loading="lazy" width="800" height="500"><figcaption><h3>Courser</h3><p>Pack hunter. Flanks you, then lunges.</p><p class="tip">Keep moving.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_lancer.jpg" alt="Three Lancers in a line" loading="lazy" width="800" height="500"><figcaption><h3>Lancer</h3><p>Burst gunner. Punishes open ground.</p><p class="tip">Take cover. Shoot off its cannon arm.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_wasp.jpg" alt="Wasps in the air at sunset" loading="lazy" width="800" height="500"><figcaption><h3>Wasp</h3><p>Rotor drone. Hangs still while its nose glows.</p><p class="tip">Shoot it in the glow: a hit breaks its burst.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_siren.jpg" alt="A Siren rolling up a forest road" loading="lazy" width="800" height="500"><figcaption><h3>Siren</h3><p>Wailing runner. Explodes when it reaches you.</p><p class="tip">Shoot it first: its blast kills machines.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_scorch.jpg" alt="A Scorch throwing flame" loading="lazy" width="800" height="500"><figcaption><h3>Scorch</h3><p>Flame unit. Walks you down, then leaps.</p><p class="tip">Flank it: shoot the fuel cell on its back.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_brute.jpg" alt="A Brute among a squad on the quarry floor" loading="lazy" width="800" height="500"><figcaption><h3>Brute</h3><p>Heavy frame. Slams the ground around it.</p><p class="tip">Shoot the optic. It may break in two.</p></figcaption></figure>
+      <figure class="card"><img src="site/img/m_warden.jpg" alt="The Warden, close" loading="lazy" width="800" height="500"><figcaption><h3>The Warden</h3><p>Command unit. Slams, bursts, never tires.</p><p class="tip">Aim for the core. Bring the whole squad.</p></figcaption></figure>
+    </div>
+    <p class="note">The other five you can meet yourself.</p>
+  </div>
+</section>
+
+<section class="sec sec-alt">
+  <div class="wrap two">
+    <div>
+      <p class="label">05 / Vehicles</p>
+      <h2>Drive between objectives. Fight on foot.</h2>
+      <p>Five stand in each zone, one of them where you land: four-seat line UTVs in the Valley and the Cut, two-seat snowmobiles at Highline. The driver drives; everyone else rides in first person with their weapon up.</p>
+      <p>Machines hear an engine from much further away than a footstep, shoot at whoever sits on it, and get run over by it. The big ones do not give way.</p>
+      <div class="pair">
+        <a class="shot" href="site/img/utv.jpg"><img src="site/img/utv.jpg" alt="From the driver's seat of a UTV, running into Drudges on a forest road" loading="lazy" width="960" height="540"></a>
+        <a class="shot" href="site/img/sled_aurora.jpg"><img src="site/img/sled_aurora.jpg" alt="A snowmobile under the aurora" loading="lazy" width="960" height="540"></a>
+      </div>
+    </div>
+    <div>
+      <p class="label">06 / Co-op</p>
+      <h2>One to six.</h2>
+      <p>The host runs inside the app: solo, host or join from the menu. Revives, pings, a squad list, and a dispatcher on the radio who reads you the weather, the clock and the contract. Something else is on the channel as well.</p>
+      <p>Mouse and keyboard with every key rebindable, or a controller: the game shows the buttons of the pad in your hands. It measures its own frame rate and sets its graphics to hold the rate you choose.</p>
+      <a class="shot frame" href="site/img/squad.jpg"><img src="site/img/squad.jpg" alt="Three squad-mates and the player firing at a Brute beside the stone train" loading="lazy" width="1600" height="900"></a>
+    </div>
+  </div>
+</section>
+
+<section id="made" class="sec">
+  <div class="wrap">
+    <p class="label">07 / How it was made</p>
+    <h2>One person. One AI agent directing 128 more. Six days.</h2>
+    <p class="lede-2">Every line of code, every shader, every built model and every synthesised sound in this game was written by an AI agent, directed and play-tested by one person. The scanned rocks, trees, textures and field recordings come from public-domain libraries.</p>
+    <div class="thennow">
+      <figure><a class="shot frame" href="site/img/then.jpg"><img src="site/img/then.jpg" alt="The first version, running in a browser: a walker and crawlers on a forest road" loading="lazy" width="960" height="540"></a><figcaption><span class="label">Friday, 8:30 PM</span> One prompt later: a first version, running in a browser.</figcaption></figure>
+      <figure><a class="shot frame" href="site/img/now.jpg"><img src="site/img/now.jpg" alt="Drudges charging across a snowfield under a mountain wall" loading="lazy" width="960" height="540"></a><figcaption><span class="label">The next Thursday</span> Release 43, on a real engine, for Mac and Windows.</figcaption></figure>
+    </div>
+    <div class="facts facts-made">
+      <div><b>159,000</b><span>lines of code</span></div>
+      <div><b>128</b><span>AI agents, directed by one lead agent</span></div>
+      <div><b>43</b><span>releases, 18 of them on the last day</span></div>
+      <div><b>65 min</b><span>of one person's attention</span></div>
+      <div><b>$10,650</b><span>in model usage, at list prices</span></div>
+    </div>
+    <p class="note">It is a work in progress, not a finished game. The <a href="https://github.com/bkrabach/static-relay#honest-notes">honest notes</a> say where it is rough.</p>
+  </div>
+</section>
+
+<section id="download" class="sec sec-alt">
+  <div class="wrap">
+    <p class="label">08 / Download</p>
+    <h2>Free. Mac and Windows.</h2>
+    <div class="dl">
+      <div class="card dl-card" data-os="win">
+        <h3>Windows</h3>
+        <p class="fine">Windows 10 or 11, 64-bit &middot; 1.3 GB</p>
+        <a class="btn" href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip">Download StaticRelay-win.zip</a>
+        <ol>
+          <li>Unzip it and start <code>Static Relay.exe</code>.</li>
+          <li>The Windows app is not signed yet, so SmartScreen asks once: <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+        </ol>
+      </div>
+      <div class="card dl-card" data-os="mac">
+        <h3>Mac</h3>
+        <p class="fine">Apple silicon and Intel &middot; signed and notarized &middot; 1.3 GB</p>
+        <a class="btn" href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg">Download StaticRelay-mac.dmg</a>
+        <ol>
+          <li>Open it and drag the app to Applications.</li>
+          <li>Start Static Relay.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="after">
+      <div>
+        <h3>Then</h3>
+        <p>When the menu offers an update, choose <strong>Update</strong>, then <strong>Restart now</strong>. Pick a zone and press <strong>Play Solo</strong>, or host a game for friends on your network.</p>
+      </div>
+      <div>
+        <h3>What it needs</h3>
+        <p>A graphics card with Vulkan or Direct3D 12 on Windows, Metal on a Mac, about 4 GB of graphics memory free, and 2.5 GB of disk. On integrated graphics and handhelds it runs at reduced quality.</p>
+      </div>
+      <div>
+        <h3>Privacy</h3>
+        <p>The game talks to its GitHub page to look for updates and looks for hosts on your own network. It sends nothing to any address outside your network or VPN. <a href="https://github.com/bkrabach/static-relay#honest-notes">More</a>.</p>
+      </div>
+    </div>
+    <p class="note"><a href="https://github.com/bkrabach/static-relay/releases">All releases</a> &middot; <a href="https://github.com/bkrabach/static-relay/issues">Report a problem</a>: a screenshot and what you were doing is plenty.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="wm wm-foot"><svg class="pulse" viewBox="0 0 28 24" aria-hidden="true"><path d="M1 13h6l2.5-8 4.5 15 3.5-10 2 3h7.5"/></svg><span class="wm-a">STATIC</span><span class="wm-b">RELAY</span></p>
+    <p>Free to download and play. Its code is not open source. Built with the <a href="https://godotengine.org">Godot Engine</a>; fonts under the SIL Open Font License; scans, textures and recordings from public-domain libraries.</p>
+    <p><a href="https://github.com/bkrabach/static-relay">GitHub</a> &middot; <a href="https://github.com/bkrabach/static-relay/blob/main/CREDITS.md">Credits</a> &middot; <a href="https://github.com/bkrabach/static-relay/blob/main/THIRD-PARTY-NOTICES.txt">Third-party notices</a></p>
+  </div>
+</footer>
+
+<div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Picture"><button type="button" class="lb-close" aria-label="Close">Close</button><img alt=""></div>
+
+<script src="site/app.js" defer></script>
+</body>
+</html>

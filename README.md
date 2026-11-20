@@ -1,13 +1,23 @@
+<p align="center">
+  <a href="https://bkrabach.github.io/static-relay/"><img src="media/banner.jpg" alt="Static Relay - a free co-op extraction shooter for Mac and Windows" width="100%"></a>
+</p>
+
+<p align="center">
+  <b><a href="https://bkrabach.github.io/static-relay/">Website</a></b> &nbsp;&middot;&nbsp;
+  <b><a href="https://bkrabach.github.io/static-relay/#reel">Watch the reel</a></b> &nbsp;&middot;&nbsp;
+  <b><a href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip">Download for Windows</a></b> &nbsp;&middot;&nbsp;
+  <b><a href="https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg">Download for Mac</a></b>
+</p>
+
 # STATIC RELAY
 
 **A co-op extraction shooter on a dead relay line that its own machines have taken over. One to six operators drop
 in, do the job, and decide how far to push before they get out. Free. Mac and Windows.**
 
-[![A one-minute reel of the game - select to watch](media/reel_preview.gif)](media/static-relay-reel.mp4?raw=true)
-
-**[Watch the one-minute reel](media/static-relay-reel.mp4?raw=true)** - every shot in it is the game playing itself.
-
-![Static Relay - the menu](media/00_menu.jpg)
+<p align="center">
+  <a href="https://bkrabach.github.io/static-relay/#reel"><img src="media/reel_preview.gif" alt="Eight seconds of the one-minute reel" width="640"></a><br>
+  <sub>Eight seconds of the one-minute reel. <a href="https://bkrabach.github.io/static-relay/#reel">Watch all of it, with sound</a> - every shot is the game playing itself.</sub>
+</p>
 
 Every line of code, every shader, every built model and every synthesised sound in this game was written by an AI
 agent, directed and play-tested by one person. The scanned rocks, trees, textures and field recordings come from
@@ -15,27 +25,34 @@ public-domain libraries ([credits](CREDITS.md)).
 
 ## Download
 
-| | |
-|---|---|
-| **Mac** (Apple silicon and Intel) | `StaticRelay-mac.dmg` - open it, drag the app to Applications |
-| **Windows** (64-bit) | `StaticRelay-win.zip` - unzip, start `Static Relay.exe` |
+| | | |
+|---|---|---|
+| **Windows** (64-bit) | **[StaticRelay-win.zip](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip)** (1.3 GB) | Unzip, start `Static Relay.exe` |
+| **Mac** (Apple silicon and Intel) | **[StaticRelay-mac.dmg](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg)** (1.3 GB) | Open it, drag the app to Applications |
 
 Both are on the [latest release](../../releases/latest). The Mac app is signed and notarized. The Windows app is not
 signed yet: SmartScreen asks once - **More info**, then **Run anyway**. After the first install the game updates
 itself from the menu.
 
-## The Line
+![Static Relay - the menu](media/00_menu.jpg)
 
-The Karst Range Line is twelve unmanned relay stations across four hundred kilometres of wilderness. Eighteen months
-ago something came down along the range in a single night. The machines that maintained the Line stopped answering
-their owners and went on working. The relays still answer every call.
+## What you do
 
-You are contracted to the office that bought the wreck: drop by pod, raise a relay's uplink for a few minutes, strip
-what pays, and leave from the landing zone. The rates go up after dark. So does everything else.
-
-Every uplink you raise also decodes a fragment of the last maintenance crew's log - four people, their entries
-kept in your Operator tab. Read in order, they are the story - as far as the zones built so far tell it. And every upload ends with a second handshake
-that nobody on your side sent.
+- **Drop in, alone or with up to five friends.** One of you hosts from the menu; the others join over the local
+  network (or over a VPN such as Tailscale). No account, no server to rent.
+- **Take an objective, then decide.** Defend the relay while it uploads, walk a rover to the bunker, hunt a Warden,
+  carry power cells to the lift, or destroy three spires. Then, at the beacon: push on to the next tier - heavier
+  machines, better rewards, the day sliding from morning toward night - or call the exfil and hold the landing zone
+  to bank the run.
+- **Spend what you earn in the field**: an armory, an overclock bench, an augment dispenser, a supply cache.
+- **Drive between objectives, fight on foot.** A vehicle makes the zone smaller; the uplink, the escort and the
+  landing zone still have to be held by people standing on the ground.
+- **Thirteen machines**, each with a job and a weak point: Drudges that swarm, Coursers that flank, Lancers that hold a
+  line of fire, Wasps overhead, and worse.
+- **Seven weapons** you can upgrade in the field with hardware that shows on the gun, an arc charge, a stim, a pulse.
+- **Side work** if you want it: a supply drop, a priority target, a rogue transmitter.
+- **A dispatcher on the radio.** Switch reads you the weather, the clock and the contract at every drop and at every
+  new tier. Something else is on the channel as well.
 
 ## Three zones
 
@@ -67,24 +84,6 @@ fresh one stands at its place a few minutes later.
 |---|---|
 | ![A line UTV on the Valley road](media/13_utv_valley.jpg) | ![A snowmobile at Highline](media/14_snowmobile_highline.jpg) |
 
-## What you do
-
-- **Drop in, alone or with up to five friends.** One of you hosts from the menu; the others join over the local
-  network (or over a VPN such as Tailscale). No account, no server to rent.
-- **Take an objective, then decide.** Defend the relay while it uploads, walk a rover to the bunker, hunt a Warden,
-  carry power cells to the lift, or destroy three spires. Then, at the beacon: push on to the next tier - heavier
-  machines, better rewards, the day sliding from morning toward night - or call the exfil and hold the landing zone
-  to bank the run.
-- **Spend what you earn in the field**: an armory, an overclock bench, an augment dispenser, a supply cache.
-- **Drive between objectives, fight on foot.** A vehicle makes the zone smaller; the uplink, the escort and the
-  landing zone still have to be held by people standing on the ground.
-- **Thirteen machines**, each with a job and a weak point: Drudges that swarm, Coursers that flank, Lancers that hold a
-  line of fire, Wasps overhead, and worse.
-- **Seven weapons** you can upgrade in the field with hardware that shows on the gun, an arc charge, a stim, a pulse.
-- **Side work** if you want it: a supply drop, a priority target, a rogue transmitter.
-- **A dispatcher on the radio.** Switch reads you the weather, the clock and the contract at every drop and at every
-  new tier. Something else is on the channel as well.
-
 ## Plays with what you have
 
 - **Mouse and keyboard**, every key rebindable.
@@ -100,6 +99,33 @@ fresh one stands at its place a few minutes later.
 | ![Morning at the road block](media/01_roadblock_morning.jpg) | ![The bunker](media/05_bunker.jpg) |
 | ![Down the sight at sunset](media/06_fight.jpg) | ![The squad at the rim of the Cut, the pit below](media/22_cut_squad_rim.jpg) |
 | ![The squad in the relay yard](media/15_squad.jpg) | ![A revive under cover](media/16_squad_revive.jpg) |
+
+## The Line
+
+The Karst Range Line is twelve unmanned relay stations across four hundred kilometres of wilderness. Eighteen months
+ago something came down along the range in a single night. The machines that maintained the Line stopped answering
+their owners and went on working. The relays still answer every call.
+
+You are contracted to the office that bought the wreck: drop by pod, raise a relay's uplink for a few minutes, strip
+what pays, and leave from the landing zone. The rates go up after dark. So does everything else.
+
+Every uplink you raise also decodes a fragment of the last maintenance crew's log - four people, their entries
+kept in your Operator tab. Read in order, they are the story - as far as the zones built so far tell it. And every upload ends with a second handshake
+that nobody on your side sent.
+
+## How it was made
+
+The first version was a browser game, two hours after one prompt. Six days later this was the 43rd release.
+
+| | |
+|---|---|
+| **159,000** | lines of code |
+| **128** | AI agents, directed by one lead agent |
+| **43** | releases, 18 of them on the last day |
+| **65 minutes** | of one person's attention |
+| **$10,650** | in model usage, at list prices |
+
+More on the [website](https://bkrabach.github.io/static-relay/#made).
 
 ## What it needs
 
