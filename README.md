@@ -27,8 +27,8 @@ public-domain libraries ([credits](CREDITS.md)).
 
 | | | |
 |---|---|---|
-| **Windows** (64-bit) | **[StaticRelay-win.zip](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip)** (1.3 GB) | Unzip, start `Static Relay.exe` |
-| **Mac** (Apple silicon and Intel) | **[StaticRelay-mac.dmg](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg)** (1.3 GB) | Open it, drag the app to Applications |
+| **Windows** (64-bit) | **[StaticRelay-win.zip](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-win.zip)** (1.4 GB) | Unzip, start `Static Relay.exe` |
+| **Mac** (Apple silicon and Intel) | **[StaticRelay-mac.dmg](https://github.com/bkrabach/static-relay/releases/latest/download/StaticRelay-mac.dmg)** (1.4 GB) | Open it, drag the app to Applications |
 
 Both are on the [latest release](../../releases/latest). The Mac app is signed and notarized. The Windows app is not
 signed yet: SmartScreen asks once - **More info**, then **Run anyway**. After the first install the game updates
@@ -132,7 +132,7 @@ More on the [website](https://bkrabach.github.io/static-relay/#made).
 - **Mac:** macOS on Apple silicon or Intel with Metal. Developed against an M4 Max MacBook Pro.
 - **Windows:** Windows 10 or 11, 64-bit, a graphics card with Vulkan (or Direct3D 12). On integrated graphics (a
   handheld) it runs at reduced quality and resolution.
-- 2.5 GB of disk (the download is 1.3 GB).
+- 2.5 GB of disk (the download is 1.4 GB).
 
 ## Honest notes
 
